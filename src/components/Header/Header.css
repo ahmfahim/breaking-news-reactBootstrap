@@ -1,0 +1,18 @@
+.title{
+    border-bottom: 3px solid #fff;
+    width:269px;
+    color: #fff;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.description{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-bg{
+    background-image:linear-gradient(hsla(0, 0%, 0%, 0.8),rgba(0, 0, 0, 0.6)),url('../../img/roman-kraft-_Zua2hyvTBk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -4px;
+}

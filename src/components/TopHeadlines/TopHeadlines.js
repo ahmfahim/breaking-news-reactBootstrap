@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import News from '../News/News';
+import './TopHeadlines.css';
+
 
 const TopHeadlines = () => {
     const [articles, setArticles] = useState([]);
@@ -13,9 +15,9 @@ const TopHeadlines = () => {
 
     return (
         <div>
-            <h1>Top Headline</h1>
+            <h1 className="headline-title">TOP HEADLINE TODAY</h1>
             {
-                articles.map(article=> <News article={article}></News>)
+                articles.map(article => <News article={article}></News>)
             }
         </div>
     );
